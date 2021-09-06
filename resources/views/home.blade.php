@@ -17,8 +17,8 @@
                     <div class="alert alert-success" role="alert">
                         {{ session('error') }}
                     @endif
+                        <span class="wlcm">{{'Hello There! 👋 ' . auth()->user()->name}}</span>
                     </div>
-                    {{'hello ' . auth()->user()->name}}
                 </div>
             </div>
         </div>
